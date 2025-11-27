@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile
+    image: docker-angular-sample
+    ports:
+      - "8080:8080"
